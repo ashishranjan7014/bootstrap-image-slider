@@ -41,7 +41,7 @@ export default function App() {
       <div className="mySlides">
         <div className="numbertext">1 / 6</div>
         <img
-          src={"https://www.w3schools.com/howto/img_snow_wide.jpg"}
+          src="https://www.w3schools.com/howto/img_woods.jpg"
           style={{ width: "100%" }}
         />
       </div>
@@ -72,7 +72,10 @@ export default function App() {
 
       <div className="mySlides">
         <div className="numbertext">5 / 6</div>
-        <img src="img_nature_wide.jpg" style={{ width: "100%" }} />
+        <img
+          src="https://www.w3schools.com/howto/img_nature_wide.jpg"
+          style={{ width: "100%" }}
+        />
       </div>
 
       <div className="mySlides">
@@ -145,7 +148,7 @@ export default function App() {
             className="demo cursor"
             src="https://www.w3schools.com/howto/img_snow.jpg"
             style={{ width: "100%" }}
-            onclick={() => currentSlide(6)}
+            onClick={() => currentSlide(6)}
             alt="Snowy Mountains"
           />
         </div>
